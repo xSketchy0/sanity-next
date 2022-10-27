@@ -1,0 +1,129 @@
+.container {
+    @apply h-screen;
+    color: #e5b299;
+}
+
+.wrapper {
+    @apply flex h-full flex-col items-center justify-center space-y-4 rounded-2xl;
+}
+
+.heading {
+    @apply text-center;
+}
+
+.logo {
+    @apply h-3;
+}
+// .container {
+//     @apply flex h-screen flex-col;
+//     padding: var(--gb-padding);
+//     background: var(--clr-4);
+//     color: var(--clr-1);
+// }
+
+// .main {
+//     @apply mt-36 grid flex-grow grid-cols-12 gap-2;
+// }
+
+// .bottom {
+//     @apply flex justify-between uppercase;
+// }
+
+// .heading {
+//     @apply text-9xl;
+// }
+
+// .subheading {
+//     @apply text-4xl;
+// }
+
+// .textContainer {
+//     @apply col-span-7;
+// }
+
+// .textContainer > * + * {
+//     @apply mt-24;
+// }
+
+// .shapeContainer {
+//     @apply col-span-5;
+// }
+
+// .circle {
+//     @apply relative aspect-square w-full rounded-full;
+//     background: var(--clr-1);
+
+//     span {
+//         @apply absolute top-1/2 block aspect-square -translate-y-1/2 rounded-full;
+//         &:nth-child(1) {
+//             @apply w-3/4;
+//             background: var(--clr-3);
+//         }
+
+//         &:nth-child(2) {
+//             @apply w-2/4;
+//             background: var(--clr-2);
+//         }
+//     }
+// }
+
+// // .container {
+// //     @apply h-screen;
+// // }
+
+// // .imageContainer {
+// //     @apply relative h-2/5 rounded-b-lg overflow-hidden;
+
+// // }
+
+// // .imageText {
+// //     @apply h-full w-full flex items-end justify-between;
+// //     padding: var(--gb-padding);
+// //     color: var(--clr-1);
+// // }
+
+// // .image {
+// //     @apply -z-10 h-auto w-full mix-blend-luminosity object-cover;
+// // }
+
+// // .title {
+// //     @apply text-7xl font-light;
+
+// //     .line {
+// //         @apply block;
+// //     }
+
+// //     .word {
+// //         @apply font-bold italic;
+// //     }
+// // }
+
+// // .textContainer {
+// //     padding: var(--gb-padding);
+// //     @apply h-3/5 flex flex-col;
+// // }
+
+// // .subheading {
+// //     @apply flex-grow text-4xl;
+// // }
+
+// // .bottom {
+// //     @apply flex items-center justify-between;
+// // }
+
+// // .menu {
+// //     @apply rounded-full h-6 w-6 relative;
+// //     background: var(--clr-3);
+// // }
+
+// // .menuInner {
+// //     background: var(--clr-1);
+// //     @apply h-2.5 w-2.5 rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+// // }
+
+// // .logo {
+// //     @apply h-4;
+// //     path {
+// //         fill: var(--clr-1);
+// //     }
+// // }

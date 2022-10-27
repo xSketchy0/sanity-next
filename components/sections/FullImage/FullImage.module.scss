@@ -1,0 +1,9 @@
+.container {
+    height: 150vh;
+    background: #e5b299;
+    @apply relative drop-shadow-md;
+}
+
+.image {
+    @apply w-full object-cover mix-blend-luminosity;
+}

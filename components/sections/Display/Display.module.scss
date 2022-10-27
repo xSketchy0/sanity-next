@@ -1,0 +1,12 @@
+.container {
+    @apply px-8 py-32;
+    color: #e5b299;
+}
+
+.heading {
+    @apply text-9xl;
+
+    & > p:nth-child(1) {
+        @apply indent-32;
+    }
+}

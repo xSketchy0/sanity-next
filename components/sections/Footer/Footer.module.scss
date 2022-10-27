@@ -1,0 +1,18 @@
+.container {
+    color: #e5b299;
+    @apply flex h-screen items-center overflow-hidden px-64 text-9xl leading-none;
+    background: rgb(9, 9, 9);
+    background: linear-gradient(
+        69deg,
+        rgba(9, 9, 9, 1) 0%,
+        rgba(40, 40, 40, 1) 100%
+    );
+}
+
+.wrapper {
+    // background: url('../../../public/kawaii.png') no-repeat center;
+}
+
+.title {
+    @apply font-bold uppercase;
+}
