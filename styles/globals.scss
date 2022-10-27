@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    background: #e5b299;
+    color: #e5b299;
+    // clip-path: inset(5% round 10px);
+    @apply antialiased;
+    font-family: 'Roobert';
+    font-size: 1.2vw;
+}
+
+main {
+    clip-path: inset(1rem round 10px);
+    background: linear-gradient(
+        218.24deg,
+        #7d5a50 18.55%,
+        #7d5a50 18.55%,
+        #b4846c 77.96%
+    );
+}
+
+.split-parent {
+    overflow: hidden;
+}
+.split-child {
+    display: inline-block;
+}
